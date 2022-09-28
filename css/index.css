@@ -140,19 +140,30 @@ footer{
     display: flex;
 }
 .list ul:nth-child(1){
-    flex-basis: 25%;
+    flex-basis: 35%;
 }
 .list ul:nth-child(2){
-    flex-basis: 25%;
+    flex-basis: 20%;
 }
 .list ul:nth-child(3){
-    flex-basis: 25%;
+    flex-basis: 20%;
 }
 .list ul:nth-child(4){
-    flex-basis:  25%;
+    flex-basis:  20%;
 }
 .list ul:nth-child(1) li{
     display: flex;
+    align-items: flex-start;
+}
+.list ul:nth-child(1) img{
+    margin: 1%  5% 0% 0%;
+}
+.list ul:nth-child(1) p{
+    align-items: flex-start;
+    align-self: flex-start;
+}
+li{
+    margin: 5%;
 }
 .media{
     display: flex;
@@ -163,6 +174,7 @@ footer{
 .media img{
     filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(338deg) brightness(106%) contrast(100%);
 }
-li{
-    margin: 5%;
+.Copyright{
+    align-self: flex-end;
+    margin-right: 5%;
 }
