@@ -224,6 +224,10 @@ li{
     }
 }
 @media (max-width: 600px){
+    h1{
+        font-size: 1.1rem;
+        text-align: center;
+    }
     .section-two, .section-four{
         flex-direction: column-reverse;
     }
